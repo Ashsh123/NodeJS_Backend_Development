@@ -107,9 +107,68 @@ let obj2 = {
  },
 }
 
-console.log(obj2);
-console.log(obj2.e);
-console.log(obj2.e()); // function doesnot return anything then its returns undefined
+// console.log(obj2);
+// console.log(obj2.e);
+// console.log(obj2.e()); // function doesnot return anything then its returns undefined
 
 // console.log(obj2['f()']);
-console.log(obj2['f']());
+// console.log(obj2['f']());
+
+// obj2.a = false;
+// obj2["b"] = [1,2,2,1];
+// console.log(obj2);
+
+
+// Object.freeze(obj2); //This method stops the updation in object
+ // obj2.a = false; //this does'nt update the object
+// obj2["b"] = [1,2,2,1];
+// console.log(obj2);
+
+
+
+
+
+// Function : In JS, Function is an object.
+//  method console.dir(func_name);
+// no. of argument = function length
+
+// function f(a,b ,c,d){ // length = 4;
+
+// }
+// console.log(f.length);
+// function f2(){
+//    return ashish;
+// }
+// let ans = f2();
+// console.log(f2());
+
+
+
+
+
+// Async JS
+// Jo bhi code async nature ka ho, usey side stack me bhej do and agle code ko chlao jo v sync nature ka ho, jb v saara sync code chal jaye, tb check kro ki async code completehua he ya nahi and agr wo complete huw ho to usey main stack me laao and chala do.
+
+// var blob = await fetch(`https://randomuser.me/api/`);
+// var res = await blob.json();
+// console.log(res);
+
+
+// async function f3() {
+//    var blob = await fetch(`https://randomuser.me/api/`);//this returns a promise(json format)
+//    var ans = await blob.json(); // json() : convert a json into an object
+// console.log(ans);
+// console.log(async.results[0].name);
+// }
+// f3();
+
+
+
+
+
+
+
+
+
+
+
